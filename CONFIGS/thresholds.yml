@@ -1,0 +1,31 @@
+do:
+  primary:
+    low: 5.0        # mg/L — below this is a risk factor
+    critical: 3.5   # mg/L — strong risk factor
+
+nh3:
+  primary:
+    elevated: 0.05  # mg/L — moderate factor
+    high: 0.20      # mg/L — strong factor
+
+pH:
+  lo: 6.5
+  hi: 8.5
+
+temperature:
+  hi: 30.0          # °C heat stress
+
+turbidity_proxy:
+  quantile_high: 0.75  # relative high marker
+
+label_policy:
+  scores_to_labels:
+    - {min_score: 4, label: HIGH}
+    - {min_score: 2, label: MEDIUM}
+    - {min_score: 0, label: LOW}
+  scores:
+    do: {critical: 2, low: 1}
+    nh3: {high: 2, elevated: 1}
+    pH_out_of_range: 1
+    turbidity_high: 1
+    temperature_high: 1

@@ -1,0 +1,3 @@
+created_at,high_threshold,model_version,pH,p_high,predicted_do,predicted_nh3,prob_HIGH,prob_LOW,prob_MEDIUM,risk_label,risk_label_argmax,temperature,timestamp,turbidity_proxy
+2025-11-18T00:52:42.870214Z,0.3,model1_risk_classifier_v1,7.2,0.0,8.2,0.034,0.0,0.19464105156723965,0.8053589484327605,MEDIUM,MEDIUM,28.1,2025-04-01T09:30:00+00:00,0.34
+2025-11-18T01:53:50.869095Z,0.3,model1_risk_classifier_v1,7.2,0.0,8.2,0.034,0.0,0.19464105156723965,0.8053589484327605,MEDIUM,MEDIUM,28.1,2025-04-01T09:30:00+00:00,0.34

@@ -1,0 +1,3 @@
+alert_level,created_at,immediate_actions,investigation_actions,preventive_actions,timestamp
+INFO,2025-11-18T00:52:42.872196Z,['Increase observation frequency for the next 24 hours.'],"['Check for any changes in feeding, stocking, or weather.']","['Plan a routine water quality check (DO, NH3) within the next 48 hours.']",2025-04-01T09:30:00+00:00
+INFO,2025-11-18T01:53:50.876105Z,['Increase observation frequency for the next 24 hours.'],"['Check for any changes in feeding, stocking, or weather.']","['Plan a routine water quality check (DO, NH3) within the next 48 hours.']",2025-04-01T09:30:00+00:00

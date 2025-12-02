@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "729492022568",
+    "project_id": "poseidon-aquaculture",
+    "storage_bucket": "poseidon-aquaculture.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729492022568:android:b510a10f69e739678c9c1d",
+        "android_client_info": {
+          "package_name": "com.example.mobile_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDFD11OWqkUpWRm2s6yX9OaJ-EWg69fC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729492022568:android:1c380a72c7b21ebd8c9c1d",
+        "android_client_info": {
+          "package_name": "com.poseidon.aquaculture"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDFD11OWqkUpWRm2s6yX9OaJ-EWg69fC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

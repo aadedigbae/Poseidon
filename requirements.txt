@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+
+pydantic>=2.0
+numpy
+pandas
+scikit-learn
+joblib
+
+tensorflow-cpu
+google-cloud-firestore
+google-auth
+
+python-dotenv

@@ -1,0 +1,25 @@
+{
+  "model1_version": "model1_risk_classifier_v1",
+  "teacher_features": [
+    "temperature",
+    "pH",
+    "turbidity_proxy",
+    "predicted_do",
+    "predicted_nh3"
+  ],
+  "teacher_classes": [
+    "HIGH",
+    "LOW",
+    "MEDIUM"
+  ],
+  "alpha_blend": 0.35,
+  "target_prevalence": 0.15,
+  "THR_HIGH": 0.65,
+  "THR_MED": 0.3,
+  "n_rows": 4345,
+  "class_counts": {
+    "LOW": 4340,
+    "MEDIUM": 5
+  },
+  "high_confidence_fraction": 0.748216340621404
+}
